@@ -1,0 +1,55 @@
+<!-- A321 for Airport Models by Narendran M -->
+<PropertyList>
+
+    <path>A321-JST.ac</path>
+
+   <animation>
+        <type>select</type>
+        <object-name>FuselageLight</object-name>
+        <condition>
+                <greater-than>
+                    <property>sim/time/sun-angle-rad</property>
+                    <value>1.55</value>
+                </greater-than>
+        </condition>
+    </animation>
+
+	<animation>
+		<name>Logo light illumination</name>
+		<type>material</type>
+                <object-name>FuselageLight</object-name>
+		<emission>
+			<red>0.5</red>
+			<green>0.5</green>
+			<blue>0.5</blue>
+			        <condition>
+                <greater-than>
+                    <property>sim/time/sun-angle-rad</property>
+                    <value>1.55</value>
+                </greater-than>
+        </condition>
+		</emission>
+	</animation>
+
+
+	<animation>
+		<name>Logo light illumination</name>
+		<type>material</type>
+		<object-name>Derive</object-name>
+		<object-name>Rudder.1</object-name>
+		<object-name>Rudder.2</object-name>
+		<object-name>Rudder.3</object-name>
+		<emission>
+			<red>0.25</red>
+			<green>0.25</green>
+			<blue>0.25</blue>
+			<condition>
+                <greater-than>
+                    <property>sim/time/sun-angle-rad</property>
+                    <value>1.55</value>
+                </greater-than>
+        </condition>
+		</emission>
+	</animation>
+
+</PropertyList>

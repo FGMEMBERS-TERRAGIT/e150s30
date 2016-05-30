@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<PropertyList>
+
+	<path>jetway-777.ac</path>
+
+	<!-- Night/day lighting -->
+	<animation>
+		<type>textranslate</type>
+		<object-name>Rotunda1</object-name>
+		<object-name>Rotunda1.001</object-name>
+		<object-name>Tunnel1Rotunda</object-name>
+		<object-name>Tunnel1Rotunda.001</object-name>
+		<object-name>Tunnel1</object-name>
+		<object-name>Tunnel1.001</object-name>
+		<object-name>Tunnel2</object-name>
+		<object-name>Tunnel2.001</object-name>
+		<object-name>Tunnel3</object-name>
+		<object-name>Tunnel3.001</object-name>
+		<object-name>Rotunda2</object-name>
+		<object-name>Rotunda2.001</object-name>
+		<object-name>Entrance</object-name>
+		<object-name>Entrance.001</object-name>
+		<object-name>Hood</object-name>
+		<object-name>Hood.001</object-name>
+		<property>/sim/time/sun-angle-rad</property>
+		<factor>0.3125</factor>
+		<step>1.6</step>
+		<axis>
+			<x>1</x>
+			<y>0</y>
+		</axis>
+	</animation>
+
+	<!-- Make the ground marker and jetway entrances "non-solid" so that the aircraft does not collide with them -->
+	<animation>
+		<object-name>Marker</object-name>
+		<object-name>Entrance</object-name>
+		<object-name>Entrance.001</object-name>
+		<object-name>Hood</object-name>
+		<object-name>Hood.001</object-name>
+		<enable-hot type="bool">false</enable-hot>
+	</animation>
+
+</PropertyList>

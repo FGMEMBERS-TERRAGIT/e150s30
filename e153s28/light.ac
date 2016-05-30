@@ -1,0 +1,24 @@
+AC3Db
+MATERIAL "ac3dmat1" rgb 1 1 1  amb 0.2 0.2 0.2  emis 1 1 1  spec 0.2 0.2 0.2  shi 128  trans 0
+OBJECT world
+kids 1
+OBJECT poly
+name "Light"
+data 9
+Plane.299
+texture "lights.png"
+crease 30.000000
+numvert 4
+1.875 1.875 0
+1.875 -1.875 0
+-1.875 -1.875 0
+-1.875 1.875 0
+numsurf 1
+SURF 0x0
+mat 0
+refs 4
+0 0.0373219 0.0401325
+3 0.462322 0.0401325
+2 0.462322 0.465133
+1 0.0373219 0.465133
+kids 0
