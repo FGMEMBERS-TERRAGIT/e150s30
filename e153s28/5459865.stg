@@ -1,0 +1,9 @@
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 153.25204 -27.5463045 37.34 357.19
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 153.2523662 -27.546411 38.14 339.78
+OBJECT_SHARED Models/Power/generic_pylon_50m.ac 153.2523919 -27.5462436 38.48 11.04
+OBJECT_SHARED Models/Maritime/Misc/right_bank_beacon.ac 153.297 -27.535 -0.43 163.47
+OBJECT_SHARED Models/Maritime/Misc/right_bank_beacon.ac 153.402 -27.56 -0.16 116.18
+OBJECT_SHARED Models/Maritime/Misc/left_bank_beacon.ac 153.305 -27.5417 -0.62 7.66
+OBJECT_SHARED Models/Maritime/Misc/left_bank_beacon.ac 153.313 -27.6133 -0.04 1.68
+OBJECT_SHARED Models/Maritime/Misc/left_bank_beacon.ac 153.405 -27.565 -0.05 189.05
+OBJECT_SHARED Models/Maritime/Misc/Buoy-Cardinal-North.ac 153.2862409 -27.5038396 -0.29 139.6
