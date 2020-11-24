@@ -1,1 +1,7 @@
 OBJECT_SHARED Models/Communications/vordme_1.xml 153.334444 -27.761389 4.14 180
+# dsf2stg
+# do not edit below this line
+#
+OBJECT_SHARED Models/lib/SmHangar.ac 153.34037 -27.76547 0.00 0
+OBJECT_SHARED Models/lib/prop_a.ac 153.33889 -27.76611 3.72 358.234
+# END dsf2stg
